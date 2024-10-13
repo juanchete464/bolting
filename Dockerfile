@@ -19,5 +19,5 @@ RUN npm run build
 # Exponer el puerto que utiliza la aplicación
 EXPOSE 3000
 
-# Comando para ejecutar la aplicación en modo producción
+# Comando para ejecutar la aplicación en modo preview
 CMD ["npm", "run", "preview"]

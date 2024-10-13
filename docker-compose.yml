@@ -4,7 +4,7 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000" # Exponer el puerto 3000 localmente
+      - "3000:4173" # Exponer el puerto 3000 localmente
     volumes:
       - .:/app # Reflejar los cambios locales en el contenedor
       - /app/node_modules # Evitar conflictos con node_modules locales
